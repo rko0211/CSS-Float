@@ -1,0 +1,40 @@
+img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+#img1{
+   
+    float: right;
+}
+#img2{
+   
+    /* float: left; */
+    float: right;
+    clear: right;
+    
+}
+/* p{
+    border: 1px solid black;
+    overflow: auto;
+} */
+/* <!-- Clear: property is useful for both floated element as well as non floated element too --> */
+
+#content{
+    width: 70%;
+    background-color: green;
+    height: 200px;
+    float: left;
+}
+#sidebar{
+    width: 30%;
+    background-color: orange;
+    height: 150px;
+    float: left;
+}
+#footer{
+    background-color:blue;
+    border: 1px solid black;
+   clear: both;
+}
